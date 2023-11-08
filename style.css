@@ -1,0 +1,134 @@
+/* Global box-sizing rule for all elements */
+* {
+  box-sizing: border-box;
+}
+
+/* Styles for .product--image */
+.product--image {
+  width: 150px;
+  margin-right: 200px;
+}
+
+/* Styles for .single--product */
+.single--product {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  width: 600px;
+  background-color: rgb(209, 218, 215);
+  /* Box shadow for the product container */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 20px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+/* Styles for .remove class */
+.remove {
+  text-align: left;
+}
+
+/* Styles for .product--liked class */
+.product--liked {
+  color: red;
+  height: 20px;
+}
+
+/* Styles for the header element */
+header {
+  background-color: rgb(209, 156, 59);
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+}
+
+/* Styles for the footer element */
+footer {
+  background-color: rgb(209, 156, 59);
+  border-radius: 10px 10px 10px 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+/* Styles for main > div elements */
+main > div {
+  border: 1px solid #dee2e6;
+  padding: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Styles for button elements */
+button {
+  background-color: rgb(209, 156, 59);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 4px 4px 4px 4px;
+  color: white;
+  border-color: transparent;
+}
+
+/* Styles for #cart--container */
+#cart--container {
+  width: 100%;
+  text-align: center;
+}
+
+/* Styles for .love-button class */
+.love-button {
+  border: 0;
+  background-color: transparent;
+}
+
+/* Styles for #main--container */
+#main--container {
+  display: flex;
+  justify-content: center;
+  margin-left: 215px;
+  margin-right: 215px;
+}
+
+/* Styles for .cart--summary class */
+.cart--summary {
+  height: fit-content;
+  width: 300px;
+  text-align: center;
+  margin-top: 20px;
+  background-color: rgb(209, 218, 215);
+  border-radius: 10px 10px 10px 10px;
+  /* Box shadow for the cart summary container */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* Styles for #check-out */
+#check-out {
+  width: 100%;
+  height: 50px;
+}
+
+/* Styles for .product--information */
+.product--information {
+  width: 700px;
+  /* Box shadow for the product information container */
+  box-shadow: rgba(213, 168, 168, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 20px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+/* Media query for mobile */
+@media (max-width: 767px) {
+  #main--container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin: 0; /* Remove the left and right margins for mobile */
+  }
+}
