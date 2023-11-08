@@ -1,6 +1,8 @@
 # Dom-shopping-cart-checkpoint
 
-Shopping Cart Project
+#Shopping Cart Project
+
+
 This is a simple shopping cart project with JavaScript and HTML, allowing users to add, remove, and update product quantities in a cart. Additionally, it calculates the total price of the items in the cart and provides a checkout option.
 This is an assignment at the gomycode training and the time was very short
 
